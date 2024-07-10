@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF50;
+    position: relative;
+}
+
+.field {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.goal {
+    width: 10px;
+    height: 20%;
+    background-color: white;
+    position: absolute;
+}
+
+.left-goal {
+    left: 0;
+    top: 40%;
+}
+
+.right-goal {
+    right: 0;
+    top: 40%;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    cursor: grab;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.corner {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 50%);
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 50%);
+}
+
+.corner img {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+}
+
+.scoreboard {
+    position: absolute;
+    top: 20px;
+    font-size: 24px;
+    color: white;
+}
+.real {
+    width: 100px;
+    height: 100px;
+}

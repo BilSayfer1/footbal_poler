@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Field</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="field" id="field">
+        <div class="goal left-goal"></div>
+        <div class="goal right-goal"></div>
+        <div class="ball" draggable="true" id="ball"></div>
+        <div class="corner top-left">
+            <img class="real" src="./img/icons8-real-madrid-48.png" alt="Real Madrid">
+        </div>
+        <div class="corner top-right"></div>
+        <div class="corner bottom-left"></div>
+        <div class="corner bottom-right">
+            <img src="./img/icons8-barcelona-fc-48.png" alt="Barcelona">
+        </div>
+    </div>
+    <div class="scoreboard">
+        <span id="score">Score: 0 - 0</span>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
